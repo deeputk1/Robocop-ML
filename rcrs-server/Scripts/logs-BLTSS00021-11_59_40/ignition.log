@@ -1,0 +1,12 @@
+DEBUG ignition.IgnitionSimulator : Starting Connection from Ignition simulator. Registry: System
+DEBUG ignition.IgnitionSimulator : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG ignition.IgnitionSimulator : Using seed 1023
+INFO ignition.IgnitionSimulator : ignition.IgnitionSimulator@1b28ebd8 connected
+DEBUG ignition.IgnitionSimulator : Re-indexing world model
+DEBUG ignition.IgnitionSimulator : Finished re-index. Took 17ms
+INFO ignition.IgnitionSimulator : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [10], INTENSITIES = [0.5]
+INFO ignition.IgnitionSimulator : Timestep 132
+INFO ignition.IgnitionSimulator : explosion Gas Stations 
+INFO ignition.IgnitionSimulator : Ignating after shock 
+DEBUG ignition.IgnitionSimulator : Igniting 0 buildings
+INFO ignition.IgnitionSimulator : Timestep 132 took 1 ms

@@ -1,0 +1,34 @@
+INFO launcher : Processing jar directory: /D/ashwin_ext/RoboCup/Test/Notebook/rcrs-server/Scripts/../jars
+INFO launcher : Processing ../jars/ignition.jar
+INFO launcher : Processing ../jars/misc.jar
+INFO launcher : Processing ../jars/standard.jar
+INFO launcher : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO launcher : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO launcher : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO launcher : Processing ../jars/collapse.jar
+INFO launcher : Processing ../jars/sample.jar
+WARN launcher : Class sample.CustomRegistryTestAgent$CustomEntityFactory not found
+INFO launcher : Processing ../jars/resq-fire.jar
+INFO launcher : Processing ../jars/human.jar
+INFO launcher : Processing ../jars/handy.jar
+INFO launcher : Processing ../jars/kernel.jar
+INFO launcher : Processing ../jars/gis2.jar
+INFO launcher : Processing ../jars/traffic3.jar
+INFO launcher : Processing ../jars/maps.jar
+INFO launcher : Processing ../jars/clear.jar
+INFO launcher : Launching 1 instances of component 'firesimulator.FireSimulatorWrapper'...
+INFO launcher : Launching instance 1...
+java.io.IOException: Failed to bind
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServer.start(NettyServer.java:246)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:184)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:90)
+	at firesimulator.FireSimulatorWrapper.postConnect(FireSimulatorWrapper.java:102)
+	at rescuecore2.components.AbstractComponent.postConnect(AbstractComponent.java:76)
+	at rescuecore2.components.AbstractSimulator.postConnect(AbstractSimulator.java:64)
+	at rescuecore2.components.AbstractSimulator$SimulatorConnectionListener.handleConnectOK(AbstractSimulator.java:202)
+	at rescuecore2.components.AbstractSimulator$SimulatorConnectionListener.messageReceived(AbstractSimulator.java:192)
+	at rescuecore2.connection.AbstractConnection$MessageBroadcastThread.work(AbstractConnection.java:283)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+Caused by: io.grpc.netty.shaded.io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+Failed to bind
+INFO launcher : success

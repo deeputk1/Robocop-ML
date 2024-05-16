@@ -1,0 +1,5 @@
+DEBUG traffic3.simulator.TrafficSimulator : Starting Connection from traffic3.simulator.TrafficSimulator. Registry: System
+DEBUG traffic3.simulator.TrafficSimulator : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG traffic3.simulator.TrafficSimulator : Using seed 1023
+INFO traffic3.simulator.TrafficSimulator : traffic3.simulator.TrafficSimulator@74edb41e connected
+INFO traffic3.simulator.TrafficSimulator : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [1], INTENSITIES = [0.5]

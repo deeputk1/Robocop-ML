@@ -1,0 +1,6 @@
+DEBUG sample.SampleCivilian : Starting Connection from sample.SampleCivilian. Registry: SampleCivilian filter registry
+DEBUG sample.SampleCivilian : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG sample.SampleCivilian : Using seed 937074449
+INFO sample.SampleCivilian Civilian (937073426): Sample civilian connected
+INFO sample.SampleCivilian Civilian (937073426): Civilian 937073426 connected
+DEBUG sample.SampleCivilian : Starting Connection from sample.SampleCivilian. Registry: SampleCivilian filter registry

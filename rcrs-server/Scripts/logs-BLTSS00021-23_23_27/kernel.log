@@ -1,0 +1,11 @@
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+FATAL kernel : Couldn't start kernel
+kernel.KernelException: Invalid scenario file
+	at gis2.GMLWorldModelCreator.buildWorldModel(GMLWorldModelCreator.java:95)
+	at kernel.StartKernel.createKernel(StartKernel.java:287)
+	at kernel.StartKernel.main(StartKernel.java:188)
+Caused by: rescuecore2.scenario.exceptions.ScenarioException: Building 1 does not exist
+	at gis2.GisScenario.apply(GisScenario.java:294)
+	at gis2.GMLWorldModelCreator.readScenarioAndApply(GMLWorldModelCreator.java:216)
+	at gis2.GMLWorldModelCreator.buildWorldModel(GMLWorldModelCreator.java:83)
+	... 2 more

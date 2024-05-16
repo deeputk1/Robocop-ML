@@ -1,0 +1,7 @@
+DEBUG gis2.GMLWorldModelCreator : Creating entities
+DEBUG gis2.GMLWorldModelCreator : 18 buildings
+DEBUG gis2.GMLWorldModelCreator : 392 roads
+DEBUG gis2.GMLWorldModelCreator : Reading scenario
+DEBUG gis2.GMLWorldModelCreator : Applying scenario
+DEBUG gis2.GisScenario : Creating 1 refuges
+DEBUG gis2.GisScenario : Converting building 1 to a refuge

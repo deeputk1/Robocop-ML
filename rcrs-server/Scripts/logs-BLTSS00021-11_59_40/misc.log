@@ -1,0 +1,8 @@
+DEBUG misc.MiscSimulator : Starting Connection from misc.MiscSimulator. Registry: System
+DEBUG misc.MiscSimulator : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG misc.MiscSimulator : Using seed 1023
+INFO misc.MiscSimulator : misc.MiscSimulator@1ca6aafc connected
+DEBUG misc.MiscSimulator : Re-indexing world model
+DEBUG misc.MiscSimulator : Finished re-index. Took 14ms
+INFO misc.MiscSimulator : MiscSimulator connected. World has 98 entities.
+INFO misc.MiscSimulator : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [10], INTENSITIES = [0.5]

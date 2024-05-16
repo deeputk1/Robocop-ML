@@ -1,0 +1,31 @@
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+INFO kernel : Logging to /D/ashwin_ext/RoboCup/Test/Notebook/rcrs-server/Scripts/logs-BLTSS00021-12:01:02/rescue.log
+INFO kernel : Created log file: /D/ashwin_ext/RoboCup/Test/Notebook/rcrs-server/Scripts/logs-BLTSS00021-12:01:02/rescue.log
+INFO kernel : Created channel: Voice channel 0 (range = 30000, max 1 messages of size 256)
+INFO kernel : Created channel: Radio channel 1 (bandwidth = 1024)
+INFO kernel : Created channel: Radio channel 2 (bandwidth = 1024)
+INFO kernel : Created channel: Radio channel 3 (bandwidth = 1024)
+INFO kernel : Kernel initialised
+INFO kernel : Perception module: Line of sight perception
+INFO kernel : Communication module: Channel communication model
+INFO kernel : Command filter: kernel.ChainedCommandFilter@3a0d172f
+INFO kernel : Score function: Score graph
+INFO kernel : Termination condition: Timestep >= 300
+INFO kernel : Command collector: CompositeCommandCollector [Timed command collector]
+INFO kernel : Agent controlled entity registered: Civilian (482151809)
+INFO kernel : Agent controlled entity registered: Fire brigade (210552869)
+INFO kernel : Agent controlled entity registered: Fire brigade (1962675462)
+INFO kernel : Listening for connections on port 7000
+FATAL kernel : Couldn't start kernel
+kernel.KernelException: Couldn't open kernel port
+	at kernel.StartKernel.initialiseKernel(StartKernel.java:314)
+	at kernel.StartKernel.main(StartKernel.java:215)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:149)
+	at rescuecore2.connection.ConnectionManager.listen(ConnectionManager.java:45)
+	at kernel.StartKernel.initialiseKernel(StartKernel.java:310)
+	... 1 more

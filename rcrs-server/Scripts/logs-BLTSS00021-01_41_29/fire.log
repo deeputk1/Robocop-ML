@@ -1,0 +1,80 @@
+DEBUG firesimulator.FireSimulatorWrapper : Starting Connection from firesimulator.FireSimulatorWrapper. Registry: System
+DEBUG firesimulator.FireSimulatorWrapper : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG firesimulator.FireSimulatorWrapper : Using seed 1023
+INFO firesimulator.FireSimulatorWrapper : firesimulator.FireSimulatorWrapper@32c0666 connected
+DEBUG firesimulator.FireSimulatorWrapper : Re-indexing world model
+DEBUG firesimulator.FireSimulatorWrapper : Finished re-index. Took 20ms
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.store
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.virtual
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.host
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.port
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.setup
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.csetup
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.ray_rate' to '0.0025'
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.help
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.cell_size' to '5000'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.max_ray_distance' to '200000'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.energy_loss' to '0.86'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.air_to_air_flow' to '1.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.air_to_building_flow' to '0.0015'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.air_cell_heat_capacity' to '0.004'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wooden_capacity' to '1.1'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wooden_energy' to '2400.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wooden_ignition' to '47.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wooden_burning' to '800.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wooden_speed' to '0.05'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.steel_capacity' to '1.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.steel_energy' to '800.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.steel_ignition' to '47.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.steel_burning' to '850.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.steel_speed' to '0.05'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.concrete_capacity' to '1.5'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.concrete_energy' to '350.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.concrete_ignition' to '47.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.concrete_burning' to '800.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.concrete_speed' to '0.05'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.max_extinguish_power_sum' to '3000'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.water_refill_rate' to '2500'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.water_hydrant_refill_rate' to '400'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.water_capacity' to '25000'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.water_thermal_capacity' to '20'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.water_distance' to '50000'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.radiation_coefficient' to '0.011'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wind_speed' to '0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wind_direction' to '100.0'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.wind_random' to '1'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.randomseed' to '23'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'random.seed' to '1023'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.refuge_inflammable' to 'false'
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.fire_station_inflammable
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.police_office_inflammable
+DEBUG firesimulator.FireSimulatorWrapper : Ignoring property resq-fire.ambulance_center_inflammable
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.gamma' to '0.2'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.rays.dir' to 'rays'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.burn-rate-average' to '0.15'
+DEBUG firesimulator.FireSimulatorWrapper : Setting 'resq-fire.burn-rate-variance' to '0.02'
+INFO firesimulator.world.World : World initialising
+DEBUG firesimulator.world.Building : Initialised building 2560: ground area = 6095.0, floors = 1, volume = 18285.0, initial fuel = 4.3884E7, energy capacity = 20113.5
+DEBUG firesimulator.world.Building : Initialised building 2561: ground area = 751.0, floors = 3, volume = 6759.0, initial fuel = 1.62216E7, energy capacity = 7434.9004
+DEBUG firesimulator.world.Building : Initialised building 2562: ground area = 1534.0, floors = 2, volume = 9204.0, initial fuel = 3221400.0, energy capacity = 13806.0
+DEBUG firesimulator.world.Building : Initialised building 2563: ground area = 4794.0, floors = 3, volume = 43146.0, initial fuel = 1.035504E8, energy capacity = 47460.6
+DEBUG firesimulator.world.Building : Initialised building 2564: ground area = 2239.0, floors = 3, volume = 20151.0, initial fuel = 4.83624E7, energy capacity = 22166.1
+DEBUG firesimulator.world.Building : Initialised building 2565: ground area = 5460.0, floors = 3, volume = 49140.0, initial fuel = 3.9312E7, energy capacity = 49140.0
+DEBUG firesimulator.world.Building : Initialised building 2566: ground area = 1197.0, floors = 1, volume = 3591.0, initial fuel = 2872800.0, energy capacity = 3591.0
+DEBUG firesimulator.world.Building : Initialised building 2567: ground area = 189.0, floors = 1, volume = 567.0, initial fuel = 1360800.0, energy capacity = 623.7
+DEBUG firesimulator.world.Building : Initialised building 2550: ground area = 1138.0, floors = 1, volume = 3414.0, initial fuel = 8193600.0, energy capacity = 3755.4001
+DEBUG firesimulator.world.Building : Initialised building 2551: ground area = 739.0, floors = 3, volume = 6651.0, initial fuel = 1.59624E7, energy capacity = 7316.1
+DEBUG firesimulator.world.Building : Initialised building 2552: ground area = 1855.0, floors = 3, volume = 16695.0, initial fuel = 4.0068E7, energy capacity = 18364.5
+DEBUG firesimulator.world.Building : Initialised building 2553: ground area = 3860.0, floors = 1, volume = 11580.0, initial fuel = 2.7792E7, energy capacity = 12738.0
+DEBUG firesimulator.world.Building : Initialised building 2554: ground area = 2147.0, floors = 1, volume = 6441.0, initial fuel = 1.54584E7, energy capacity = 7085.1
+DEBUG firesimulator.world.Building : Initialised building 2555: ground area = 2468.0, floors = 1, volume = 7404.0, initial fuel = 5923200.0, energy capacity = 7404.0
+DEBUG firesimulator.world.Building : Initialised building 2556: ground area = 1816.0, floors = 2, volume = 10896.0, initial fuel = 2.61504E7, energy capacity = 11985.601
+DEBUG firesimulator.world.Building : Initialised building 2557: ground area = 4300.0, floors = 2, volume = 25800.0, initial fuel = 6.192E7, energy capacity = 28380.0
+DEBUG firesimulator.world.Building : Initialised building 2558: ground area = 3396.0, floors = 2, volume = 20376.0, initial fuel = 4.89024E7, energy capacity = 22413.6
+DEBUG firesimulator.world.Building : Initialised building 2559: ground area = 2363.0, floors = 3, volume = 21267.0, initial fuel = 1.70136E7, energy capacity = 21267.0
+INFO firesimulator.world.World : loaded radiation sample file "rays/214596488.rays"
+INFO firesimulator.world.World : World width: 768228mm
+INFO firesimulator.world.World : World height: 422313mm
+INFO firesimulator.world.World : grid cell size=5000mm, x*y=154*85 = 13090
+INFO firesimulator.world.World : World initialised
+INFO firesimulator.FireSimulatorWrapper : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [1], INTENSITIES = [0.5]

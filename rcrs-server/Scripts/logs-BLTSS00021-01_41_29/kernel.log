@@ -1,0 +1,37 @@
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+INFO kernel : Logging to /D/ashwin_ext/RoboCup/Test/Notebook_Final/rcrs-server/Scripts/logs-BLTSS00021-01:41:29/rescue.log
+INFO kernel : Created log file: /D/ashwin_ext/RoboCup/Test/Notebook_Final/rcrs-server/Scripts/logs-BLTSS00021-01:41:29/rescue.log
+INFO kernel : Created channel: Voice channel 0 (range = 30000, max 1 messages of size 256)
+INFO kernel : Created channel: Radio channel 1 (bandwidth = 1024)
+INFO kernel : Created channel: Radio channel 2 (bandwidth = 1024)
+INFO kernel : Created channel: Radio channel 3 (bandwidth = 1024)
+INFO kernel : Kernel initialised
+INFO kernel : Perception module: Line of sight perception
+INFO kernel : Communication module: Channel communication model
+INFO kernel : Command filter: kernel.ChainedCommandFilter@a77614d
+INFO kernel : Score function: Score graph
+INFO kernel : Termination condition: Timestep >= 250
+INFO kernel : Command collector: CompositeCommandCollector [Timed command collector]
+INFO kernel : Agent controlled entity registered: Civilian (937073426)
+INFO kernel : Agent controlled entity registered: Fire brigade (596851449)
+INFO kernel : Agent controlled entity registered: Fire brigade (549139337)
+INFO kernel : Listening for connections on port 7000
+INFO kernel : Waiting for all agents, simulators and viewers to connect.
+INFO kernel : Connection timeout is 300000ms
+INFO kernel : Waiting for 2 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:civilian
+INFO kernel : Simulator 'Area model clear simulator' id 1 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39442 request ID 1) connected
+INFO kernel : Simulator 'Ignition simulator' id 2 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39450 request ID 1) connected
+INFO kernel : Simulator 'firesimulator.FireSimulatorWrapper' id 3 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39458 request ID 1) connected
+INFO kernel : Simulator 'misc.MiscSimulator' id 4 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39468 request ID 1) connected
+INFO kernel : Simulator 'Collapse Simulator v1.1' id 5 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39480 request ID 1) connected
+INFO kernel : Simulator 1 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39442 request ID 1) acknowledged
+INFO kernel : Simulator 2 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39450 request ID 1) acknowledged
+INFO kernel : Simulator 4 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39468 request ID 1) acknowledged
+INFO kernel : Simulator 5 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39480 request ID 1) acknowledged
+INFO kernel : Simulator 'traffic3.simulator.TrafficSimulator' id 6 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39486 request ID 1) connected
+INFO kernel : Simulator 6 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39486 request ID 1) acknowledged
+INFO kernel : Simulator 3 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39458 request ID 1) acknowledged
+INFO kernel : Agent 'sample.SampleCivilian' id 937073426 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39492 request ID 1) connected
+INFO kernel : Agent 937073426 (TCPConnection: local port 7000, endpoint = /127.0.0.1:39492 request ID 1) acknowledged
+INFO kernel : Waiting for 2 entities of type urn:rescuecore2.standard:entity:firebrigade
