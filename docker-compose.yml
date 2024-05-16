@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+    rcrs_server:
+        hostname: rcrs_server
+        image: ./rcrs_server/
+        volumes:
+            - ./map/:/map/:ro
+            - ./logs/server/:/logs/
+        env-file: 
+            - rcrs.env
+
+#comming soon
+#    web_viewer:
+#        depends_on: rcrs_server
+#        image: roborescue:rcrs-web-viewer
+#        env-file: 
+#            - rcrs.env     
+
+    java_agent:
+        depends_on: rcrs_server
+        image: ./java-agent/
+        volumes:
+            - ./agent-code/:/agent/
+            - ./logs/agent/:/logs/ 
+        env-file: 
+            - rcrs.env  
+            
+# Uncomment if you want to develop in python just uncomment the following lines and comment java_agent
+#    python_agent:
+#        depends_on: rcrs_server
+#        image: ./python-agent/
+#        volumes:
+#            - ./agent-code/:/agent/
+#            - ./logs/agent/:/logs/ 
+#        env-file: 
+#            - rcrs.env              
