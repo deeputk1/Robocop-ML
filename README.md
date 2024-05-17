@@ -16,5 +16,16 @@ Directions for downloading, building, and launching the RoboCup Rescue Simulator
     export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 5. Navigate to the root directory called ROBOCOP-ML 
 6. run jupyter notebook
-7. Run the cells of the jupyter notebook
+7. Open the TestEnv.ipynb file that contains the reinforecement learning algorithm implementation.
+8. Run the cells of the jupyter notebook
 
+**Authors of the repo**
+Abel Simon
+Abitha Stephen
+Dania Mathew
+Deepthi Theeyancheri Kannoth
+Janet M Shaju
+Susan Aby
+Titty Pappachan
+Supervisor: Dr. Fenghui Ren
+Coordinator: Dr. Nan Li
