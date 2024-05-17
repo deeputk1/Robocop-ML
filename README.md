@@ -20,7 +20,7 @@ Directions for downloading, building, and launching the RoboCup Rescue Simulator
 8. Run the cells of the jupyter notebook
 
 **Authors of the repo**
-Abel Simon
+Abel Simon\n
 Abitha Stephen
 Dania Mathew
 Deepthi Theeyancheri Kannoth
